@@ -1,0 +1,38 @@
+﻿<Window x:Class="ClassWork11._11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClassWork11._11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Name="MainPanel" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Name="Result" Text="Выши очки = "/>
+            <TextBlock Text="В каком году вышел .NET 8.0"/>
+            <RadioButton GroupName="q1" Content="2024"/>
+            <RadioButton GroupName="q1" Content="2022"/>
+            <RadioButton Name="Q1CorrectAns" GroupName="q1" Content="2023"/>
+
+            <TextBlock Text="Какие типы данных ссылочные?"/>
+            <CheckBox Name="Q2Answer1" Content="int"/>
+            <CheckBox Name="Q2Answer2Cor" Content="string"/>
+            <CheckBox Name="Q2Answer3Cor" Content="List&lt;int&gt;"/>
+            <CheckBox Name="Q2Answer4" Content="char"/>
+
+            <TextBlock Text="Какие модификаторы доступа существуют в C#?"/>
+            <CheckBox Name="Q3Answer1Cor" Content="internal"/>
+            <CheckBox Name="Q3Answer2" Content="friend"/>
+            <CheckBox Name="Q3Answer3Cor" Content="protected internal"/>
+            <CheckBox Name="Q3Answer4Cor" Content="private protected"/>
+            <CheckBox Name="Q3Answer5" Content="package"/>
+
+            <TextBlock Text="Какой LINQ-метод приведёт к немедленному выполнению?"/>
+            <RadioButton GroupName="q4" Content="Where"/>
+            <RadioButton GroupName="q4" Content="First"/>
+            <RadioButton Name="Q4CorrectAns" GroupName="q4" Content="Count"/>
+
+            <Button Content="Подтвердить ответ" Click="Button_Check_Answers"/>
+        </StackPanel>
+    </Grid>
+</Window>
