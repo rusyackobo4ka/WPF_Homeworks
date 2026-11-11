@@ -7,24 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Viewbox Stretch="Uniform" Width="500" Height="300">
-            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Width="100" Height="30" Text="Имя"/>
-                    <TextBox Name="FirstName" Height="30" Width="150"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Width="100" Height="30" Text="Фамилия"/>
-                    <TextBox Name="SecondName" Height="30" Width="150"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Width="100" Height="30" Text="Отчество"/>
-                    <TextBox Name="ThirdName" Height="30" Width="150"/>
-                </StackPanel>
-                <Button Width="250" Height="30" Content="Сохранить данные" Click="Button_Save_Data"/>
-                <CheckBox Name="add" Content="Согласен на рассылку рекламы" IsChecked="True"/>
-                <CheckBox Name="adwd" Content="Согласен на обработку перс данных"/>
-            </StackPanel>
-        </Viewbox>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Чеклист"/>
+            <CheckBox Name="add" Content="Проснулся"/>
+            <CheckBox Name="adwd" Content="Покушал"/>
+            <CheckBox Name="addsasdaqw" Content="Поработал"/>
+            <CheckBox Name="adwdddd" Content="Лег спать"/>
+        </StackPanel>
     </Grid>
 </Window>
