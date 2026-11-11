@@ -4,7 +4,6 @@ using System.Windows.Input;
 using System.Text;
 
 namespace Homework1;
-// sdfhopgkjsdfhgopi
 /// <summary>
 /// Interaction logic for MainWindow.xaml
 /// </summary>
